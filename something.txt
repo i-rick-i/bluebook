@@ -1,0 +1,29 @@
+@media (min-width: 0px) and (max-width: 500px){
+  .pc_version{
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+      display: none
+  }
+  .mobile_version{
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+      display: block
+  }
+}
+
+@media (min-width: 501px) and (max-width: infinity){
+  .pc_version{
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+      display: block
+  }
+  .mobile_version{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: none
+  }
+}
